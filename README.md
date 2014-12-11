@@ -1,6 +1,8 @@
 # OAuthEcho
 
-TODO: Write a gem description
+OAuthEcho is the implement of [OAuth Echo](https://dev.twitter.com/oauth/echo) in ruby.
+
+[![Build Status](https://travis-ci.org/kmats/oauth_echo.svg?branch=master)](https://travis-ci.org/kmats/oauth_echo)
 
 ## Installation
 
