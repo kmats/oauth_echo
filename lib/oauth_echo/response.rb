@@ -7,10 +7,10 @@ module OAuthEcho
     end
 
     def success?
-      @status == '200'
+      @status.to_i == 200
     end
 
-    def identity
+    def user_info
       success? ? JSON.parse(@body) : nil
     end
   end
