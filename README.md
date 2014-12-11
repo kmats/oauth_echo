@@ -4,6 +4,8 @@ OAuthEcho is the implement of [OAuth Echo](https://dev.twitter.com/oauth/echo).
 
 [![Build Status](https://travis-ci.org/kmats/oauth_echo.svg?branch=master)](https://travis-ci.org/kmats/oauth_echo)
 [![Dependency Status](https://gemnasium.com/kmats/oauth_echo.svg)](https://gemnasium.com/kmats/oauth_echo)
+[![Coverage Status](https://coveralls.io/repos/kmats/oauth_echo/badge.png)](https://coveralls.io/r/kmats/oauth_echo)
+[![Code Climate](https://codeclimate.com/github/kmats/oauth_echo/badges/gpa.svg)](https://codeclimate.com/github/kmats/oauth_echo)
 
 ## Installation
 
