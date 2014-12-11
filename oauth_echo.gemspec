@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = OAuthEcho::VERSION
   spec.authors       = ["kmats"]
   spec.email         = []
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{The implement of OAuth Echo}
+  spec.summary       = %q{The implement of OAuth Echo}
+  spec.homepage      = "https://github.com/kmats/oauth_echo"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
@@ -18,8 +18,11 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
+  spec.add_dependency "faraday"
   spec.add_dependency "json"
   spec.add_development_dependency "bundler", "~> 1.3"
+  spec.add_development_dependency "coveralls"
   spec.add_development_dependency "rake"
   spec.add_development_dependency "rspec"
+  spec.add_development_dependency "simplecov"
 end

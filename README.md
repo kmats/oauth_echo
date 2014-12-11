@@ -1,8 +1,9 @@
 # OAuthEcho
 
-OAuthEcho is the implement of [OAuth Echo](https://dev.twitter.com/oauth/echo) in ruby.
+OAuthEcho is the implement of [OAuth Echo](https://dev.twitter.com/oauth/echo).
 
 [![Build Status](https://travis-ci.org/kmats/oauth_echo.svg?branch=master)](https://travis-ci.org/kmats/oauth_echo)
+[![Dependency Status](https://gemnasium.com/kmats/oauth_echo.svg)](https://gemnasium.com/kmats/oauth_echo)
 
 ## Installation
 
